@@ -1,0 +1,389 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+
+body{
+    font-family: "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3","メイリオ", "ヒラギノ角ゴ ProN W6";
+}
+
+.wrap{
+    width: 1200px;
+    margin: auto;
+}
+
+/* ここはHeader */
+
+
+.list{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 90px;
+}
+
+.item {
+width: 100%;
+}
+
+.logo{
+    margin: 0 0 0 20px;
+}
+.navi{
+    color:black;
+    font-size:16px;
+    text-align: center;
+    padding: 15px 0;
+    width: 100px;
+}
+
+.navi>a{
+    color: #454444 ;
+}
+
+/* ここまでHeader */
+
+.h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: grey;
+}
+
+/* ここからメイン写真 */
+.mainvisual{
+    height: 400px;
+    background: url("../img/mainbg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainvisual__titel{
+    font-size: 30px;
+    color: #fafafa;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.mainvisual__subtitle{
+    font-size: 30px;
+    color: #fafafa;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+
+/* ここから　About*/
+.content{
+    width:900px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.stitle1{
+    color: orange;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 60px 0 30px;
+}
+
+.imgbox{
+    display: flex;
+    margin: auto;
+}
+
+.imgbox p img{
+    width:100%;
+}
+
+.imgbox{
+background: url("../img/Hover01.png");
+}
+
+.imgbox p:hover{
+    opacity:0%;
+}
+
+/* 以下Aboutの余白に関するCSS */
+.marg{
+    color: black;
+    font-weight: normal;
+    font-size: 24px;
+    margin: 0 0 60px;
+}
+
+.marg-w{
+    color: black;
+    font-weight: normal;
+    font-size: 20px;
+    margin: 0 0 40px;
+}
+
+.marg-n{
+    color: black;
+    font-weight: normal;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+/*  ここからCourse */
+
+.stitle2{
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 60px 0 30px;
+}
+
+.lineH{
+    line-height: 1.75;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.underM{
+    margin: 0 0 60px 0;
+}
+.list_ex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    }
+
+.item_ex {
+width: 100%;
+}
+
+.item_ex>img{
+    width:600px
+}
+
+.parag_right{
+    width:480px;
+    margin: auto;
+    margin: 0 0 0 50px;
+}
+
+
+.parag_left{
+    width:480px;
+    margin: auto;
+    margin-right: 50px;
+}
+
+
+.catch_right{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0 20px 50px;
+}
+
+.catch_left{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0px 20px 0;
+}
+/*  ここまでCourse */
+
+/* ここからNEWS */
+.content2{
+    width:1000px;
+    text-align: center;
+    margin: auto;
+}
+
+.newsI{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsLIST{
+    width: 100%;
+    text-align: left;
+    padding: 10px 15px 10px 15px;
+}
+
+
+.newsLIST:hover{
+    background-color: navy;
+    color: white;
+    opacity: 50%
+
+}
+
+
+.newsdate{
+    margin: 30px 0 24px;
+    font-size: 16px;
+}
+
+.newscont{
+    line-height: 1.75;
+    font-size: 16px;
+}
+
+.space{
+    margin: 60px 0 60px 0;
+}
+.sent-btn{
+    display: block;
+    margin: auto;
+    padding: 10px 0;
+    width:300px;
+    background-color: orange;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.sent-btn:hover{
+    background-color: navy;
+}
+
+/* ここまでNews */
+
+/* ここからAccess */
+.margin30{
+    margin:0 0 30px 0;
+}
+
+.margin70{
+    margin:0 0 70px 0;
+}
+
+.marg60{
+    padding: 60px 0 60px 0;
+}
+.Acc-wrap{
+    width: 640px;
+    margin: auto;
+}
+.Acc-inner{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 30px 0;
+
+}
+
+.Acc-title{
+    padding: 0 0 0 20px;
+    width: 160px;
+    text-align: left;
+}
+
+.Acc-item{
+    width: 392px;
+    text-align: left;
+    padding: 0 0 0 20px;
+}
+
+/* CONTACT部分 */
+.back{
+    background-color: #fafafa;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.form-wrapper{
+    width: 640px;
+    margin: auto;
+}
+
+.form-inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0 0 0;
+    margin-bottom: 20px;
+    border-bottom: solid 1px #bfbfbf;
+}
+
+.form-title{
+    width: 160px;    
+    vertical-align: middle;
+    border-right: solid 1px #bfbfbf;
+    padding-left: 10px;
+  
+}
+
+.outline{
+    border-top: solid 1px #bfbfbf;
+}
+
+
+/*  .form-title.check-box{
+    padding: 0;
+}  */
+
+
+
+.form-item{
+    width: 392px;
+    padding:8px 80px 8px 8px;
+
+    
+}
+.form-parts{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    border: solid 1px #bfbfbf;
+    padding: 8px;
+}
+
+
+.checklist{
+    padding: 12px 0 12px 0;
+    vertical-align: middle;
+}
+input[type*="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: none;
+    border-radius: 25%;
+    background-color:lightgrey;
+    vertical-align: middle;
+    }
+
+input[type*="checkbox"]:checked {
+    background-color:navy;
+}
+
+.btn-sub{
+    border: none;
+    margin-bottom: 140px;
+}
+
+
+
+
+/* 以下フッター */
+
+.footer{
+    width: 1200px;
+    font-size: 20px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #707070;
+    padding: 30px 0 30px 0;
+}
+
+
+/* ----- 以下参考用-----
+.marg-t{
+    line-height: 2;　　行間を離したい時のCSS
+    text-align: justify;  テキストを両端ぞろえにしたいとき  
+    padding: 0 80px;    親タグの周りを離したいとき
+}
+----------*/
